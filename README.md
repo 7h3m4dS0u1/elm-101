@@ -15,11 +15,18 @@ Les essentiels (orienté Elm Architecture)
 https://guide.elm-lang.org/core_language.html
 https://elm-lang.org/examples
 https://dennisreimann.de/articles/elm.html
+http://www.servicedenuages.fr/en/getting-started-with-elm
 
 Langage et outils
 -----------------
 
 REPL, (Reactor)
+
+elm-format
+https://github.com/avh4/elm-format
+
+elm-live
+https://github.com/tomekwi/elm-live
 
 Elm destructuring
 https://gist.github.com/yang-wei/4f563fbf81ff843e8b1e
@@ -60,6 +67,22 @@ Elm Architecture: Modules and Composition
 
 - module
 - composition arch
+
+
+Elm for Web Design
+------------------
+
+elm-css
+https://github.com/rtfeldman/elm-css
+
+elm-mdl
+https://debois.github.io/elm-mdl/
+
+Elm extras
+----------
+
+List.extra `import List.extra as List`
+http://package.elm-lang.org/packages/ohanhi/elm-web-data/latest
 
 Other stuff to check out for more complicated/real life usage?
 https://www.elm-tutorial.org/en/
