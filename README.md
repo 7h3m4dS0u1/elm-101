@@ -12,15 +12,22 @@ Les essentiels (orienté Elm Architecture)
 
 (sample : interpreter)
 
-https://guide.elm-lang.org/core_language.html
-https://elm-lang.org/examples
-https://dennisreimann.de/articles/elm.html
-http://www.servicedenuages.fr/en/getting-started-with-elm
+Basics :
+
+- https://guide.elm-lang.org/core_language.html
+- http://elm-lang.org/examples
+- http://www.servicedenuages.fr/en/getting-started-with-elm
+
+Thorough guides/tutorials:
+
+- https://www.elm-tutorial.org/en/
+- https://dennisreimann.de/articles/elm.html
+
 
 Langage et outils
 -----------------
 
-REPL, (Reactor)
+Elm REPL, Reactor
 
 elm-format
 https://github.com/avh4/elm-format
@@ -37,6 +44,7 @@ https://medium.com/@_rchaves_/testing-in-elm-93ad05ee1832
 elm-check
 http://package.elm-lang.org/packages/NoRedInk/elm-check/2.0.0
 
+
 Elm Architecture Basics
 -----------------------
 
@@ -52,21 +60,26 @@ Elm Architecture: HTTP Requests
 -------------------------------
 
 - http requests, Result, Json decoder
+- https://github.com/NoRedInk/elm-decode-pipeline
+
 
 Elm Architecture: Navigation and Routing
 ----------------------------------------
 
 - navigation and routing
+- https://www.linkedin.com/pulse/single-page-web-apps-elm-part-one-getting-started-new-kevin-greene
+- https://github.com/rundis/albums
 
-https://www.linkedin.com/pulse/single-page-web-apps-elm-part-one-getting-started-new-kevin-greene
-https://github.com/rundis/albums
 
+Elm Architecture: Modules et Composition
+----------------------------------------
 
-Elm Architecture: Modules and Composition
------------------------------------------
+- définition de modules et composants
+- composition dans l'architecture Elm
 
-- module
-- composition arch
+- https://www.elm-tutorial.org/fr/02-elm-arch/06-composition.html
+- https://github.com/halfzebra/elm-examples
+- https://github.com/andrewsuzuki/elm-todo-rest-api
 
 
 Elm for Web Design
@@ -78,13 +91,10 @@ https://github.com/rtfeldman/elm-css
 elm-mdl
 https://debois.github.io/elm-mdl/
 
+
 Elm extras
 ----------
 
-List.extra `import List.extra as List`
+List.extra
 http://package.elm-lang.org/packages/ohanhi/elm-web-data/latest
-
-Other stuff to check out for more complicated/real life usage?
-https://www.elm-tutorial.org/en/
-https://github.com/andrewsuzuki/elm-todo-rest-api
-https://github.com/halfzebra/elm-examples
+`import List.extra as List`
